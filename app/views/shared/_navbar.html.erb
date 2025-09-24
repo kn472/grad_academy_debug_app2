@@ -19,6 +19,10 @@
         </h5>
         <%= render "shared/flag" %>
       </div>
+      <%= javascript_include_tag 'fireworks.js', 'data-turbo-track': 'reload', defer: true %>
+      <button id="btn">
+        Fireworks
+      </button>
     <% end %>
   </div>
 </nav>

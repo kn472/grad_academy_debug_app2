@@ -85,7 +85,6 @@ module QuizResultsHelper
       generate_table_data(question, correct_answer, user_answer, result)
     end
   end
-
   private
 
   # Retrieves the correct answer for a specific question in a quiz page.
